@@ -1,0 +1,41 @@
+.visitor-page {
+  background-color: #efefef;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+}
+
+.visitor-content {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  max-width: 900px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  text-align: left;
+}
+
+.visitor-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #000000;
+}
+
+.visitor-text {
+  font-size: 1.1rem;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.contact-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}

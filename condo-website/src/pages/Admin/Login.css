@@ -1,0 +1,68 @@
+/* Outer container (same as other pages) */
+.page-container {
+  background-color: #efefef;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+}
+
+/* Inner content box */
+.page-content {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+/* Title */
+.page-title {
+  font-size: 3rem;
+  font-weight: 50;
+  margin-bottom: 30px;
+  color: #000000;
+  text-align: left;
+}
+
+/* Input fields */
+.page-content input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  font-size: 1.2rem;
+
+  box-sizing: border-box;
+}
+
+/* Button */
+.page-content button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #007acc;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.page-content button:hover {
+  background-color: #005fa3;
+}
+
+/* Error message */
+.error {
+  color: red;
+  margin-bottom: 15px;
+  font-weight: 600;
+}

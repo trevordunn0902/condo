@@ -1,0 +1,31 @@
+/* Make sure the body, html, and root fill the viewport */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdfdfd; /* light grey background for whole page */
+}
+
+/* Top-level App container fills the viewport */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Ensure header stretches full width */
+.main-header {
+  width: 100%;
+}
+
+/* Ensure home page content container is centered, but still responsive */
+.home-page {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+}

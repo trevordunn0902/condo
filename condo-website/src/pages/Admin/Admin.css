@@ -1,0 +1,94 @@
+/* Outer container */
+.page-container {
+  background-color: #efefef;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+}
+
+/* Content box */
+.admin-page-content {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  max-width: 900px; /* match Contact page */
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+/* Title */
+.page-title {
+  font-size: 3rem;
+  font-weight: 50;
+  margin-bottom: 45px;
+  color: #000000;
+  text-align: left;
+}
+
+/* Text utilities */
+.small {
+  font-size: 1.3rem;
+  color: #333333;
+  margin: 0px 0;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/* Divider lines */
+.underline,
+.dashline {
+  height: 1px;
+  border: none;
+}
+
+.underline {
+  width: 40%;
+  margin: 20px 0px 5px 0px;
+  background-color: #999999;
+}
+
+.dashline {
+  width: 40%;
+  border-top: 1px dashed #bbbbbb;
+  margin: 8px 0;
+  background: none;
+}
+
+/* Admin dashboard button */
+.dashboard-btn {
+  margin-top: 15px;
+  padding: 16px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #007acc;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  align-self: flex-start;
+  transition: background-color 0.2s ease;
+}
+
+.dashboard-btn:hover {
+  background-color: #005fa3;
+}
+
+/* Admin section spacing */
+.admin-section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}

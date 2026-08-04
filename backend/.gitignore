@@ -1,0 +1,16 @@
+# Maven
+target/
+*.jar
+*.war
+
+# Environment files
+.env
+application-local.properties
+application-secret.properties
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log

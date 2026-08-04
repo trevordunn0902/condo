@@ -1,0 +1,80 @@
+/* Outer container */
+.contact-container {
+  background-color: #efefef;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+}
+
+/* Inner box (consistent with Home page) */
+.contact-content {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  max-width: 900px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+/* Title — left aligned */
+.contact-title {
+  font-size: 3rem;
+  font-weight: 50;
+  margin-bottom: 45px;
+  color: #000000;
+  text-align: left;
+}
+
+/* Small text formatting */
+.small {
+  font-size: 1.3rem;
+  color: #333333;
+  margin: 0px 0;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/* Email links */
+.email a {
+  color: #007acc;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.email a:hover {
+  text-decoration: underline;
+}
+
+/* Divider lines (real borders) */
+.underline,
+.dashline {
+  height: 1px;
+  border: none;
+}
+
+/* Full-width solid line */
+.underline {
+  width: 40%;
+  margin: 20px 0px 5px 0px;
+  background-color: #999999;
+}
+
+/* Shorter dashed line aligned left */
+.dashline {
+  width: 40%; 
+  border-top: 1px dashed #bbbbbb;
+  margin: 8px 0;
+  background: none;
+}

@@ -1,0 +1,57 @@
+.forms-page {
+  background-color: #efefef;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+}
+
+.forms-content {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  max-width: 900px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  text-align: left;
+}
+
+.forms-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #000000;
+}
+
+.forms-section-title {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.forms-section-text {
+  font-size: 1.1rem;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.forms-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 40px;
+}
+
+.forms-list li {
+  margin-bottom: 10px;
+}
+
+.download-link {
+  color: #007bff; /* blue link color */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.download-link:hover {
+  text-decoration: underline;
+}
