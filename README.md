@@ -2,8 +2,6 @@
 
 A modern, responsive condo association website built to replace an outdated website experience with a cleaner, easier-to-navigate interface.
 
-The project focuses on creating a professional public-facing website where residents can quickly access important community information, governing documents, forms, and announcements.
-
 ## Features
 
 - Responsive website layout for desktop and mobile users
