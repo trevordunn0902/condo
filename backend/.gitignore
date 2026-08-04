@@ -3,14 +3,22 @@ target/
 *.jar
 *.war
 
-# Environment files
-.env
+# Spring Boot configuration files
+application.properties
 application-local.properties
 application-secret.properties
+
+# Environment files
+.env
+.env.*
 
 # IDE
 .vscode/
 .idea/
+*.iml
+.classpath
+.project
+.settings/
 
 # Logs
 *.log
