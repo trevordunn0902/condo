@@ -42,7 +42,7 @@
 .dropbtn {
   background: none;
   border: none;
-  color: inherit;
+  color: #ffffff;
   font: inherit;
   cursor: pointer;
   padding: 0;
@@ -101,3 +101,91 @@
   content: " ▸";
   float: right;
 }
+
+/* ==========================
+   Mobile Navigation
+========================== */
+
+.menu-toggle {
+  display: none;
+  width: 100%;
+  background: #2a2a2a;
+  color: white;
+  border: none;
+  padding: 15px;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+@media (max-width: 1100px) {
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .header-menu {
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 0;
+  }
+
+  .header-menu.open {
+    display: flex;
+  }
+
+  .header-menu a,
+  .dropbtn,
+  .login-logout-btn {
+
+    width: 100%;
+    padding: 15px 20px;
+    text-align: left;
+    border-radius: 0;
+    box-sizing: border-box;
+  }
+
+  .dropdown {
+    width: 100%;
+  }
+
+  .dropdown-content {
+    position: static;
+    display: flex;
+    background: #383838;
+    box-shadow: none;
+  }
+
+  .submenu-content {
+    position: static;
+    display: flex;
+    background: #444;
+    margin-left: 15px;
+  }
+
+  .submenu > a::after {
+    content: "";
+  }
+
+  .show {
+  display: flex !important;
+}
+
+  .submenu-toggle {
+    width: 100%;
+    text-align: left;
+    background: none;
+    color: #ffffff;
+    border: none;
+    padding: 10px 16px;
+    cursor: pointer;
+    font: inherit;
+  }
+
+  .submenu-toggle:hover {
+    background: #555;
+  }
+
+}
+
